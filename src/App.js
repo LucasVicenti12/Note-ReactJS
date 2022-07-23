@@ -27,8 +27,8 @@ const App = () => {
   }
 
   return (<div className="container">
-    <Search handleSearchNote={setSearchText}/>
-    <NoteList notes={notes.filter((note) => note.text.toLowerCase().includes(searchText))} handleAddNote={addNote} handleDeleteNote={deleteNote}/>
+    <Search handleSearchNote={setSearchText} />
+    <NoteList notes={notes.filter((note) => note.text.toLowerCase().includes(searchText))} handleAddNote={addNote} handleDeleteNote={deleteNote} />
   </div>);
 }
 export default App;
