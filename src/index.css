@@ -6,6 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.title-index{
+  font-family:'Times New Roman';
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  color: rgb(255, 255, 255);
+}
+header{
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(91, 176, 250);
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.autor{
+  position: relative;
+  left: 30vw;
+}
 .container{
   max-width: 960px;
   margin-right: auto;
@@ -24,12 +45,12 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .note.new{
-  background-color: rgb(211, 173, 49);
+  background-color: rgb(23, 216, 110);
 }
 textarea{
   border: none;
   resize: none;
-  background-color: rgb(211, 173, 49);
+  background-color: rgb(23, 216, 110);
   font-family: Arial;
 }
 textarea::placeholder{
